@@ -1,0 +1,75 @@
+// frontend/public/manifest.json
+{
+  "short_name": "GestCond",
+  "name": "Sistema de Gestão de Condomínios",
+  "description": "Sistema completo para gerenciamento de condomínios, unidades, pagamentos e manutenções",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "maskable_icon.png",
+      "type": "image/png",
+      "sizes": "196x196",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#a32e57",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "pt-BR",
+  "categories": ["business", "productivity", "utilities"],
+  "screenshots": [
+    {
+      "src": "screenshot1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "platform": "wide"
+    },
+    {
+      "src": "screenshot2.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "platform": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "Acesso rápido ao dashboard",
+      "url": "/dashboard",
+      "icons": [{ "src": "shortcut-dashboard.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Pagamentos",
+      "short_name": "Pagamentos",
+      "description": "Visualizar pagamentos",
+      "url": "/pagamentos",
+      "icons": [{ "src": "shortcut-payments.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Manutenções",
+      "short_name": "Manutenções",
+      "description": "Gerenciar manutenções",
+      "url": "/manutencoes",
+      "icons": [{ "src": "shortcut-maintenance.png", "sizes": "96x96" }]
+    }
+  ],
+  "prefer_related_applications": false
+}
